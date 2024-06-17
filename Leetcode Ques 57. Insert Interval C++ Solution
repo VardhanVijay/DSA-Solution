@@ -5,7 +5,6 @@ vector<vector<int>> insert(vector<vector<int>>& arr, vector<int>& nums) {
         sort(arr.begin(),arr.end());
 
         if(arr.size()<=1) return arr;
-        
         int start=arr[0][0];
         int end=arr[0][1];
 
